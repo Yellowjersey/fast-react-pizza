@@ -14,7 +14,7 @@ function AppLayout() {
       <Header />
 
       <div className="no-scrollbar overflow-scroll ">
-        <main className=" mx-auto max-w-3xl ">
+        <main className=" max-w-100vh mx-auto ">
           <Outlet />
         </main>
       </div>
